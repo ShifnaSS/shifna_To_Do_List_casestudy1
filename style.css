@@ -9,6 +9,7 @@ body {
 /* loginpage */
 h1, h2, h3, h4, h5, h6, a {
   margin:0; padding:0;
+  color:rgb(59, 39, 39);
 }
 .login {
   margin:0 auto;
@@ -23,7 +24,7 @@ h1, h2, h3, h4, h5, h6, a {
 .login-form h3 {
   text-align:left;
   margin-left:40px;
-  color:#fff;
+  color:brown;
 }
 .login-form {
   box-sizing:border-box;
@@ -108,7 +109,13 @@ h1, h2, h3, h4, h5, h6, a {
 .container{
   padding-top:2%; 
 }
-
+.handicon{
+  width: 40px;
+  height: 40px;
+  margin-left: 1%;
+  fill: white;
+  transform: rotate(180deg);
+}
 /* table contents */
 .hidden{
   display: none;
